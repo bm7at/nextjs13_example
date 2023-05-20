@@ -1,0 +1,30 @@
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.downloadButton {
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  color: white;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.downloadButton:hover {
+  background-color: #0051b8;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.downloadButton:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
